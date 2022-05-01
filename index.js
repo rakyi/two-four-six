@@ -1,6 +1,6 @@
 'use strict';
 
-function TwoFourSix() {
+function App() {
   const [count, setCount] = React.useState(0);
   return (
     <main className="container">
@@ -15,4 +15,4 @@ function TwoFourSix() {
 
 const domContainer = document.querySelector('#app');
 const root = ReactDOM.createRoot(domContainer);
-root.render(<TwoFourSix></TwoFourSix>);
+root.render(<App></App>);
